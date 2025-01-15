@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+/* <-...RESTING STYLES...->  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 70%;
+}
+/* <...VARIABLES...-> */
+:root{
+    --BGCOLOR:rgba(25, 0, 255, 0.904);
+    --FONTSIZE:80px;
+    --MARGIN:2rem;
+    --IMG-MARGIN:1.25rem
+    --WIDTH:100px;
+    --H3-FONTSIZE:40px;
+    --BORDER-RADIUS:50px;
+    --BUTTON-FRONTSIZE:20PX;
+    --FOOTER-FONTSIZE:15PX;
+    --BUTTON-BGCOLOR:rgba(127, 172, 255, 0.178);
+}
+/* <-...GENERAL STYLING...-> */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--BGCOLOR);
+}
+/* <..-CLASSES STYLES...-> */
+.main-container{
+    text-align: center;
+    min-width: var(--WIDTH);
+}
+.minior-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*<-...ELEMENTS STYLING  */
+.main-container h1{
+    margin-bottom: var(--MARGIN);
+    font-size: var(--FONTSIZE);
+    font-family: "Sofia",sans-serif;
+}
+.main-container .js-results{
+    font-family: "Sofia",sans-serif;
+    font-weight: 900px;
+}
+.minior-container h3{
+    margin-bottom: var(--MARGIN);
+    font-size: var(--H3-FONTSIZE);
+    font-family: "Sofia",sans-serif;
+}
+.minior-container img{
+    margin-bottom: var(--IMG-MARGIN);
+    border-radius: var(--BORDER-RADIUS);
+}
+.main-container .game-button{
+    padding: 9px;
+    margin-bottom: var(--MARGIN);
+    border-radius: var(--BORDER-RADIUS);
+    border: none;
+    font-size: var(--BUTTON-FRONTSIZE);
+    font-family: "sofia", serif;
+    font-weight: bold;
+    background-color:var(--BUTTON-BGCOLOR) ;
+}
+.main-container .footer-container{
+    font-size:var(--FOOTER-FONTSIZE);
+    font-family:"sofia", serif;
+    font-weight: bolder;
+}
+/* <----MEDIA QUERIES----> */
+@media screen {
+    
+}
